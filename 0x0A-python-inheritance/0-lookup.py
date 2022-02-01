@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Use module for get attributes and methods of an object
+"""attributes and methods of an object
 
     Class:
         lookup
