@@ -1,0 +1,15 @@
+====================
+| Test add Integers|
+====================
+
+``0-add_integer()`` Return the addition of their args
+::
+
+Importing the function from the module:
+
+	>>> add_integer = __import__("0-add_integer").add_integer
+
+Checking regular addition:
+
+	>>> add_integer(2, 3)
+	5
