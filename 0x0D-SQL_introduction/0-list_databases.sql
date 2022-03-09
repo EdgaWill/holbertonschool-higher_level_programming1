@@ -1,3 +1,3 @@
 #!/bin/bash
-# mostrar las bd del servidor
-show DATABASES;
+'''mostrar las bd del servidor'''
+show DATABASES
