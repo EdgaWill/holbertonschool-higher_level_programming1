@@ -1,2 +1,2 @@
--- creando bd
+-- CREATE DATABASE
 CREATE DATABASE hbtn_0c_0;
