@@ -1,2 +1,1 @@
--- CREATE DATABASE
-CREATE DATABASE hbtn_0c_0;
+-- CREATE DATABASE                                                                                                                                                              CREATE DATABASE IF NOT EXITS hbtn_0c_0;
