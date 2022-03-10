@@ -5,7 +5,7 @@ WHERE a.title NOT IN (
 			LEFT JOIN tv_show_genres ap
 				ON a.id = ap.show_id
 					LEFT JOIN tv_genres p
-						ON a.id = at.genre_id
-							WHERE a.name = 'Comedy'
+						ON p.id = at.genre_id
+							WHERE p.name = 'Comedy'
 						)
-						ORDER BY p.title;
+						ORDER BY a.title;
