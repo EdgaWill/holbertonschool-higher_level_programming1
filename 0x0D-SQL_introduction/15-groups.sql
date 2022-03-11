@@ -1,4 +1,3 @@
 -- Number by score
-SELECT * FROM second_table
-WHERE score=10
-ORDER BY score desc
+SELECT DISTINCT(score),COUNT(SCORE)NUMBER FROM SECOND_TABLE
+GROUP BY score DESC
